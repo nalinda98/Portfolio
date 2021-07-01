@@ -3,8 +3,244 @@
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
+
 */
 
+.service-box {
+  background-color: #cdcdff;
+  padding: 2.5rem 1.3rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+
+.service-box:hover .ico-circle {
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.service-box .service-ico {
+  margin-bottom: 1rem;
+  color: #1e1e1e;
+}
+
+.service-box .ico-circle {
+  transition: all 500ms ease;
+  font-size: 4rem;
+}
+
+.service-box .s-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .4rem 0;
+}
+
+.service-box .s-description {
+  color: #4e4e4e;
+}
+
+.box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.ico-circle {
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  display: block;
+}
+
+/*------/ Owl Carousel /------*/
+.owl-theme .owl-dots {
+  text-align: center;
+  margin-top: 18px;
+}
+
+
+.service-head h4 {
+  font-size: 1.2em;
+  color: #FFF;
+  background: #00a78e;
+  display: inline-block;
+  padding: .5em 1.5em;
+  position: relative;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.service-head h4:before {
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: '';
+  bottom: -9px;
+  left: 12px;
+  border-style: solid;
+  border-width: 14px 11px 0 12px;
+  border-color: #00a78e transparent transparent transparent;
+
+}
+
+/* span.border {
+  width: 40%;
+background: #8C8989;
+height: 1px;
+display: block;
+margin: 11px auto 0px;
+} */
+
+span.border {
+  width: 18%;
+  background: #8C8989;
+  height: 1px;
+  display: block;
+  margin-top: 26px;
+  position: relative;
+  margin: 23px auto 0px;
+}
+
+span.border:after {
+  content: ' ';
+position: absolute;
+background: #00a78e;
+height: 7px;
+display: block;
+width: 73px;
+top: -4px;
+left: 103px;
+}
+span.border.one:after {
+content: ' ';
+position: absolute;
+background: #00a78e;
+height: 7px;
+display: block;
+width: 73px;
+top: -4px;
+left: 64px;
+}
+
+
+.news-text {
+  float: right;
+  padding: 3.38em 2em;
+  background: #f4f4f4;
+}
+.news-img {
+  float: left;
+  position: relative;
+  padding: 0;
+}
+.news-text.two {
+  float:left;
+}
+.news-img img,.news-img.two  img{
+  width: 100%;
+}
+.news-img.two {
+  float:right;
+}
+.news-text h3   {
+  font-size: 1.4em;
+  color: #333333;
+  text-transform: uppercase;
+      margin-bottom: 1em;
+  font-weight:bold;
+}
+.news-text p {
+  font-size: 0.9em;
+  line-height: 1.9em;
+  margin: 1em 0 2em 0;
+  color: #777;
+}
+.news-text h3  a,ul.news li:hover  i{
+ color:#00a78e;
+ text-decoration:none;
+}
+ul.news li {
+  display: inline-block;
+     margin-right: 1em;
+}
+ul.news li i {
+  margin-right: 4px;
+}
+ul.news li a{
+  font-size: 0.9em;
+  color: #777;
+}
+ul.news li i{
+color:#333;
+}
+a.read {
+  padding: 0.5em 1.5em;
+  font-size: 1em;
+  color: #00a78e;
+  border: 2px solid #00a78e;
+  text-decoration: none;
+  border-radius: 1.5em;
+  -webkit-border-radius: 1.5em;
+  -moz-border-radius: 1.5em;
+  -o-border-radius: 1.5em;
+  -ms-border-radius: 1.5em;
+}
+a.read:hover {
+background:#00a78e;
+color:#fff;
+}
+ul.news {
+  padding: 0;
+}
+.news-grid {
+  margin: 2em 0;
+}
+.news-grid:hover{
+  transition:0.5s all;
+-webkit-transition:0.5s all;
+-moz-transition:0.5s all;
+-o-transition:0.5s all;
+-ms-transition:0.5s all;
+ box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+ -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+ -moz-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+ -o-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.blog {
+  padding:5em 0;
+}
+.about-inner p {
+  color: #777;
+  line-height: 1.8em;
+  font-size:0.9em;
+}
+h4.tittle  {
+  color: #00a78e;
+  text-decoration: none;
+  font-size: 1.4em;
+  margin: 1em 0 0.5em 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.modal-dialog.about {
+  width: 757px;
+  margin:3.5em auto 0;
+}
+.modal-content.about {
+  background-color: #fff;
+  border-radius: 0px!important;
+}
+.modal-body {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -50,11 +286,120 @@ h1, h2, h3, h4, h5, h6 {
   left: 8px;
 }
 
+
+
+.text-center {
+  text-align: center;
+}
+/* 
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .container > .navbar-header,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+}
+.container .jumbotron {
+  border-radius: 6px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
+
+#work, .blog, #services {
+  padding: 1.2em 0;
+}
+
+#work, .blog, #services {
+  padding: 2em 0;
+}
+
+#work,.blog,#services {
+  padding: 3em 0;
+}
+
+#work,.blog{
+  padding:4em 0;
+}
+
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after{
+  display: table;
+  content: " ";
+}
+
+.container:after,
+.container-fluid:after{
+  clear: both;
+}
+
 .back-to-top:hover {
   color: #fff;
   background: #2eafec;
   transition: background 0.2s ease-in-out;
 }
+.resp-tabs-container {
+	padding: 0px;
+	clear: left;	
+} */
 
 /*--------------------------------------------------------------
 # Header
